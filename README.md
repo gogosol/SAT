@@ -1,5 +1,4 @@
-# SAT
-SAT Solver (Python)
+# SAT Solver (Python)
 
 This is a Python function named "finish_him()" that takes a single string argument called "formula". The purpose of this function is to evaluate a boolean formula, which can be represented using a combination of boolean operators ('.' for AND, '+' for OR) and variables (represented by single uppercase or lowercase letters).
 
