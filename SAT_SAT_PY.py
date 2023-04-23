@@ -1,5 +1,3 @@
-import time
-inicio = time.time()
 def finish_him(formula):
 
     variables = []
@@ -120,53 +118,3 @@ def finish_him(formula):
 
     else:
         return "- Unsatisfiable"  
-    
-print(finish_him("a+b+A.A"))                                                                                   
-print(finish_him("A+a"))                                                                                       
-print(finish_him("A+d.e+a.F.A"))                                                                               
-print(finish_him("A+A+A.d+a+E"))                                                                               
-print(finish_him("c+E+a.A+f"))                                                                                 
-print(finish_him("A+b+a.A+a.A+d.e+a.F.A+A+A.d+a+E"))                                                           
-print(finish_him("A.d+e+a.D"))                                                                                  
-print(finish_him("A+b+C.A.a+B.C"))                                                                                
-print(finish_him("A+B.A+b.a+B"))                                                                               
-print(finish_him("A+B+C.A+b+C.A+B+c.A+b+c.a+B+C.a+b+c"))                                                        
-print(finish_him("b+C+d.a+C+E.b+C+e.b+D+E.a+D+e.b+D+E.B+C+d.a+c+D.a+C+E.a+b+D.a+C+e.A+b+C"))                      
-print(finish_him("A+a+b.C+B+D.a+c+d"))                                                                         
-print(finish_him("A+B+C.B+c+f.b+E"))                                                                           
-print(finish_him("A+b+c.a+c+D.a+b+D"))                                                                         
-print(finish_him("A+b.a+c.a"))                                                                                 
-print(finish_him("A+B+C.a+b.A+c.C+b.a+b+c"))                                                                     
-print(finish_him("d.e+D.E+A"))                                                                                   
-print(finish_him("A+B.a+c.b"))                                                                                 
-print(finish_him("A+B.a+c.b+b"))                                                                               
-print(finish_him("A+B.a+c.D+E.d+f.e.b"))                                                                       
-print(finish_him("d.A+B.e+D.b.a+c"))                                                                             
-print(finish_him("D+A+c.f+D+a.c.d"))                                                                           
-print(finish_him("a+B+C.A+b+C.A+B+C.a+b+c"))                                                                   
-print(finish_him("A+a+b.C+B+D.a+c+D"))                                                                         
-print(finish_him("c.B+C+A.a+c.b.A"))                                                                           
-print(finish_him("B+c+d.B+C+d.a+B+D.a+b+C.A+b+d"))                                                             
-print(finish_him("A+B.b+C+d.a+D"))                                                                             
-print(finish_him("A+b.A+C.a+B"))                                                                               
-print(finish_him("a+B+C.A+b+C.A+B+D.a+c+d"))                                                                   
-print(finish_him("A+A+B.a+b+b.a+B+B"))                                                                         
-print(finish_him("A+b.a+B+C.a"))                                                                               
-print(finish_him("A+b+c.a+B+C.a"))                                                                             
-print(finish_him("a+b+B+D.d+A+B+c.c+D+b+A"))                                                                    
-print(finish_him("a+b+B+D.d+A+B+c.c+D+b+A"))                                                                
-
-print("---------------------------------------------------------------------------------------------------")
-
-print(finish_him("A.a"))                                                                                       
-print(finish_him("A+B.a+c.a.b"))                                                                               
-print(finish_him("A+b+a.a.A"))                                                                                 
-print(finish_him("A+b+a.A+a.A+d.e+a.F.a.A+A+A.d+a+E"))                                                         
-print(finish_him("A+B.A+b.a+C.a+c"))                                                                           
-print(finish_him("A+B+C.A+B+c.A+b+C.A+b+c.a+B+C.a+B+c.a+b+C.a+b+c"))                                           
-print(finish_him("b+C+d.a+C+E.b+C+e.b+D+E.a+D+e.b+D+E.B+C+d.a+c+D.a+C+E.a+b+D.a+C+e.A+b+C.A.a"))   
-print(finish_him("A+B+C+D+E+F+G+H.a.b.c.d.e.f.g.h"))             
- 
-
-fim = time.time()
-print(fim-inicio)
